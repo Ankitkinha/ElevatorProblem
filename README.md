@@ -21,7 +21,7 @@ This project implements a simplified elevator system using Python and Django, sp
 ## Installation
 
 1. Clone the repository:
-- git clone https://github.com/your-username/elevator-system.git
+- git clone https://github.com/Ankitkinha/ElevatorProblem.git/
 
 2. Install the Python dependencies:
 - pip install -r requirements.txt
