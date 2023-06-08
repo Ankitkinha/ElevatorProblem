@@ -10,7 +10,7 @@ router.register(r'elevators/<int:elevator_id>/get_elevator_requests', ElevatorRe
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('elevators/initializesystem', ElevatorViewSet.as_view(
+    path('elevators/initializesystem/', ElevatorViewSet.as_view(
         {'post': 'initialize_elevator_system'}), name='initialize-system'),
     path('elevators/<int:elevator_id>/nextfloor/', ElevatorViewSet.as_view(
              {'get': 'get_elevator_next_destination_floor'}), name='elevator-next-floor'),
