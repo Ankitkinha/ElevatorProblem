@@ -44,6 +44,7 @@ This project implements a simplified elevator system using Python and Django, sp
   {
     "num_elevators": 3
   }
+  ```
 Response:
 ```json
 [
